@@ -1,0 +1,6 @@
+run using command: live-server
+
+install node_modules: yarn
+
+Hot-reload:
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
